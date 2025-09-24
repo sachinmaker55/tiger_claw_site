@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guilds – TIGER CLAW™</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+    <h1>🏆 Guild Directory</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="merch.html">Merch</a>
+      <a href="tournaments.html">Tournaments</a>
+      <a href="guilds.html">Guilds</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>Select State or UT to see Guild Info:</p>
+    <select id="stateSelector" onchange="showGuildDetails()">
+      <option value="">--Select--</option>
+      <option value="RJ">Rajasthan</option>
+      <option value="MH">Maharashtra</option>
+      <option value="DL">Delhi</option>
+    </select>
+    <div id="guild-info" style="margin-top:15px;"></div>
+  </main>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
